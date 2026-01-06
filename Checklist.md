@@ -30,4 +30,4 @@ Cool talks and videos:
 - Kilian
 	- (todo) what is the essence of this problem? https://www.youtube.com/watch?v=kY2NHSKBi10
 Cool blogs:
-- 
+- Lilian
