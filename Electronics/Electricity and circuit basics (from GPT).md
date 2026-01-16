@@ -1,0 +1,10 @@
+- Electrons flow from high charge to low charge
+	- Current is the measure of the charge flow (think electron flow in metals) across some point in the circuit over 1 second
+		- electron flow helps b/c thick wire (many electrons moving slow) might have same current as thin wire (few electrons moving fast)
+		- current flows from + to - (but electrons flow - to +)
+		- charge flow equilibrium restores equal current (charge buildup gets leveled out)
+	- Voltage is the difference in electrical potential between two points
+	- (imagine a water tank, the flow of water is current, the gravitational PE between the tank and the ground is voltage)
+- Components draw whatever current you provide to it, if an LED draws too much it gets fried, so we put a resistor to limit the current (like limiting water flow)
+	- I = V/R where I is current, V voltage, R resistance
+- DC voltage flows in 1 direction (battires, USB power, microcontroller power rails); AC voltage reverses at a certain frequency (wall power)

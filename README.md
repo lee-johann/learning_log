@@ -1,1 +1,1 @@
-# learning_log
+Johann's learning and projects log! [Wishlist](learning_log/Wishlist.md) contains what I want to learn, [Progress Log](learning_log/Progress%20Log.md) documents my current project's progress, and [Completed Projects](learning_log/Completed%20Projects) celebrates what I've done.

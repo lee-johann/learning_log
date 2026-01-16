@@ -1,12 +1,24 @@
+Currently tackling:
+- Rachee's Sys ML
+- Cornell Tech's Interactive Device Design
+- Chelsea's Deep RL
+
 AI Hardware
 - [ ] MIT 6.5930 Hardware Archi for Deep Learning https://csg.csail.mit.edu/6.5930/readinglist.html
 - [ ] MIT 6.5940 Efficient Deep Learning Computing (by Han Song!) https://hanlab.mit.edu/courses/2024-fall-65940
+
 Systems
 - [ ] MIT 6.5060 Algorithm Eng (parallel, sequential, cache-efficient, external-memory algs) https://jshun.csail.mit.edu/6506-s24/
 - [ ] (CANT FIND) Multicore Programming http://student.mit.edu/catalog/search.cgi?search=6.5080
+
 EE
 - [ ] MIT 6.2060 Microcomputer Project Laboratory https://web.mit.edu/6.115/www/
 - [ ] MIT 6.4510 Engineering Interactive Technologies https://hcie.csail.mit.edu/classes/2021-fall-6810/6810-engineering-interactive-technologies.html
+
+Vision / robotics:
+- [ ] Stanford CS231n: deep learning for CV https://cs231n.stanford.edu/
+- [ ] Standford CS224r: deep RL (chelsea) https://cs224r.stanford.edu/
+
 Cornell Classes
 - [ ] De Sa https://www.cs.cornell.edu/courses/cs4787/2025fa/
 - [ ] Kilian's DL https://www.cs.cornell.edu/courses/cs4782/2025sp/
@@ -29,5 +41,6 @@ Cool talks and videos:
 	- (todo) Diffusion https://www.youtube.com/watch?v=i2qSxMVeVLI
 - Kilian
 	- (todo) what is the essence of this problem? https://www.youtube.com/watch?v=kY2NHSKBi10
+
 Cool blogs:
 - Lilian
