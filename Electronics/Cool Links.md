@@ -1,0 +1,2 @@
+- [Subvocal speech recognition using sEMG](https://www.youtube.com/watch?app=desktop&v=C-O9RttwopE)
+- 
