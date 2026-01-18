@@ -1,4 +1,3 @@
-https://neuron.eng.wayne.edu/ECE330/Practical_Electronics_for_Inventors.pdf
 
 Topics:
 - Theory: voltage, current, resistance, capacitance, inductance 
@@ -28,4 +27,23 @@ Theory
 	- $\Delta V = 0$ , the sum of voltage changes around a closed path is 0 (conservation of energy)
 	- $I_{in}=I_{out}$ , the sum of currents that enter a junction equal the sum of currents that leave a junction (conservation of charge flow through a circuit)
 - Thevenin equivalent circuit: in any linear dc circuit, you can take any two terminals and treat the rest of the circuit as a black box with some V and R
-- 
+- AC voltage is sinusoidal
+	- root mean square voltage, the ac voltage equal to dc voltage capable of going the same amount of work, is peak voltage/sqrt(2) 
+- capacitors separate charges, which accumulates charge when you apply a voltage
+	- capacitance C is how much charge you can store per volt = Q/V
+	- useful as a temp source/sync to smooth out the current, energy stored W = 1/2CV^2
+	- if applied with AC, current will flow to the other plate (displacement current)
+	- $I=C\frac{dV}{dt}, V=\frac{1}{C}\int{I}dt$
+- inductor (coils) resist change in current (instead of capacitor's voltage change resistance) 
+	- passing current through creates a magnetic field
+	- $V=L\frac{dI}{dt}, I=\frac{1}{C}\int{V}dt$ 
+- DC circuits with both resistor, capacitor, inductors
+	- // the voltages of R, C, L are curved over time until they reach some flat steady state
+	- Capacitors high impedance at DC, low impedance at high freq
+	- Inductors low impedance at DC, high at high freq AC
+		- motors are inductors, so don't turn off current fast (will spike voltage), use flyback diode
+- Bunch of AC stuff I skipped
+- Filters (pass voltage better at certain freqs)
+	- V_out / V_in is called attenuation, often described in decibels (log10 of the ratio)
+- Periodic non-sinusoidal sources
+	- Fourier transform back to sinusoidal to analyze
