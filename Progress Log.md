@@ -5,4 +5,4 @@ Wendy's Interactive Device Design [link](https://github.com/IRL-CT/Developing-an
 - Textbook ch3
 
 Chelsea's Deep RL
-- Lecture 1
+- Lecture 3

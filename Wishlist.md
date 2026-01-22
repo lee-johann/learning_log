@@ -17,9 +17,10 @@ EE
 
 Vision / robotics:
 - [ ] Stanford CS231n: deep learning for CV https://cs231n.stanford.edu/
-- [ ] Standford CS224r: deep RL (chelsea) https://cs224r.stanford.edu/
+- [ ] Stanford CS224r: deep RL (chelsea) https://cs224r.stanford.edu/
+- [ ] Stanford CS234: RL  https://web.stanford.edu/class/cs234/
 
-Cornell Classes
+Cornell
 - [ ] De Sa https://www.cs.cornell.edu/courses/cs4787/2025fa/
 - [ ] Kilian's DL https://www.cs.cornell.edu/courses/cs4782/2025sp/
 - [ ] Robot learning https://www.cs.cornell.edu/courses/cs4782/2025sp/
@@ -30,8 +31,22 @@ Cornell Classes
 - [ ] Nathan Kallus' Causal ML https://nathankallus.com
 - [ ] Mohamed Adbelfattah's ML Hardware https://abdelfattah-class.github.io/ece5545/
 - [ ] (CANT FIND) autonomous mobile robots CS 5758
+- [ ] Katie said Linxi's LMLM paper being taught at Stanford https://cs422interactive.stanford.edu/readings.html
+
+SWE
+- [ ] Coding: 
+	- [ ] Pragmatic Programmer
+	- [ ] Clean Code (book that argues against it is A Philosophy of Software Design)
+	- [ ] Clean Architecture
+- [ ] High level System Design: 
+	- [ ] https://github.com/donnemartin/system-design-primer
+	- [ ] DDIA
+- [ ] Low Level Design
+	- [ ] https://github.com/ashishps1/awesome-low-level-design
 
 Cool talks and videos:
+- Jia-bin Huang (UIUC prof)
+	- Explaining diffusion https://www.youtube.com/watch?v=i2qSxMVeVLI&themeRefresh=1
 - Hyung Won Chung (OpenAI)
 	- Scaling > heuristics https://www.youtube.com/watch?v=orDKvo8h71o
 	- (todo) AI history https://www.youtube.com/watch?v=CcP8db8TeKI
