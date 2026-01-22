@@ -6,3 +6,6 @@ Wendy's Interactive Device Design [link](https://github.com/IRL-CT/Developing-an
 
 Chelsea's Deep RL
 - Lecture 3
+
+DDIA
+- Ch1
