@@ -1,0 +1,24 @@
+- data models embed assumptions about how the data will be used (28)
+- motivation for noSQL databases: 
+	- grater scalability (large datasets, high write throughput)
+	- restrictiveness of relational schema
+	- specialized queries
+- // hibernate helps reduce boilerplate in translating objects to database tables
+- ex. for LinkedIn profile, where a user has multiple jobs, 
+	- option 1) have job as a foreign key to a separate jobs table
+	- option 2) store jobs json into the jobs column
+	- option 3) store everything as json, let app handle later (like mongo)
+		- this option has better locality (no joins needed to fetch a singular profile, all info in one place)
+- aside: sometimes better to store things as ID instead of text (ex. city). This way if we need to translate, just translate the lookup table instead of every table that has the city (human-meaningful info is not duplicated)
+	- easier in relational DB b/c joins easy
+	- harder in document DB b/c joins weaker
+- Relational & document is similar on man-to-many b/c need retrieve then join
+- relational vs document
+	- fault tolerance (ch 5), concurrency (ch 7)
+	- doc pros: schema flexibility, locality, may be closer structure to app's data structure
+	- relational: better joins, many-to-one, and many-to-many
+		- code: note that if you use many to one or many to many, the app code can get complex if you use docs
+		- schema: docs are schema-on-read (useful if data heterogeneous) whereas relational is schema-on-write
+		- locality: good if you access the entire document (no lookups unlike relational) but if you have large docs and only use a little then it's wasteful and updates become slow b/c often needs rewrite whole doc (unless size doesn't change)
+		- note: postgres supports XML and json, and Mongo performs client-side joins so didff getting smaller
+	- 

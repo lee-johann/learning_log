@@ -1,0 +1,48 @@
+Thought excercise:
+- suppose we have an accurate $\hat{Q}^π(s,a)$, for new policy π' that follows $a_t = arg\,max_a \hat{Q}^π(s,a)$
+	- this policy is at least as good as π
+	- but it's not optimal, because Q takes a at s, then follows π (and not optimal policy $π^*$)
+	- if we iterate this, rewards get backed into the rest of the states
+- What if we discard policies completely, and just follow argmax_a?
+	- run policy -> estimate Qπ -> improve policy
+	- no net here except Q (see π' above)
+	- // argmax a usually found through sampling
+- improvement
+	- estimate Q not using old policy, but next policy by bringing the max_a in $y_i = r(s,a) + \gamma \max\limits_{a'} Q(s', a')$ 
+	- we also know that the optimal policy always maximizes the Q value (if and only if), so we're making our algo more like $π^*$ 
+		- $Q^{π*} = r(s,a) + \gamma E_{s' \sim p(\dot | s,a) [ \max\limits_{\bar{a}} Q^{π*}(s', \bar{a'})]}$ for all (s,a) <– bellman optimality equation
+		- note it's for all (s,a), including out-of-policy
+		- therefore we want to sample a lot of actions to get coverage when estimating
+- will this converge to optimal $Q^{π^*}$ ? only for tiny state and action space (so generally no)
+- $π_{exploration}$ follows policy with prob $\epsilon$, random action 1-$\epsilon$ for action coverage
+	- shrink $\epsilon$ as time goes on
+	- called epsilon greedy
+- take actions with probability proportional to their Q-value (Botlzmann exploration)
+	- for continuous action define gaussian or uniform over a range
+- issue: max_a' Q is a moving target, which can lead to unstable training; how can we change the target Q-value more slowly?
+	- fix: freeze params used for target Q values (temporarily)
+	- this is called Deep Q Network algorithm
+- training tips:
+	- plot reward over epochs, plot Q over epochs, see if they match
+	- loss can increase if we're getting larger Qs so magnitude of values get larger
+	- plot value vs frame-data to check
+- Double DQN to fix overestimation in Q-learning
+	- in max Q = Q( s, argmax_a Q), Q both selects the action and acts as the value estimate
+	- this means any noise gets amplified
+	- fix: decorrelate these two Qs by using two different Q networks
+	- can use previous Q?
+- n-step returns
+	- why: if your Q is bad (ex. at the start), instead of just r(s,a) you want future r as well
+	- so use r_t, r_t+1... Q(st+n, at+n)
+	- issue: not rly accurate when off-policy
+	- (practically we ignore this problem lol, but can also important smapling or use dynamic N)
+
+Chelsea's when to use what:
+- PPO & variants: 
+	- you care about stability, ease-of-use
+	- don't care about data efficiency
+- DQN & variants: 
+	- discrete actions or low-min continuous actions
+- SAC & variants:
+	- care MOST about data efficiency
+	- ok with tuning hyperparameters and less stablity

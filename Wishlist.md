@@ -1,8 +1,8 @@
 Currently tackling:
-- Rachee's Sys ML
 - Cornell Tech's Interactive Device Design
 - Chelsea's Deep RL
 - DDIA
+Next up: Rachee's Sys ML
 
 Systems & AI Hardware
 - [ ] MIT 6.5930 Hardware Archi for Deep Learning https://csg.csail.mit.edu/6.5930/readinglist.html
