@@ -21,4 +21,15 @@
 		- schema: docs are schema-on-read (useful if data heterogeneous) whereas relational is schema-on-write
 		- locality: good if you access the entire document (no lookups unlike relational) but if you have large docs and only use a little then it's wasteful and updates become slow b/c often needs rewrite whole doc (unless size doesn't change)
 		- note: postgres supports XML and json, and Mongo performs client-side joins so didff getting smaller
-	- 
+- doc makes sense if only have one-to-many relationships
+- property graphs (Neo4j)
+	- nodes have properties, edges have properties
+	- can think of as two tables, one for all nodes the other for all edge (but each graph traversal is 1 join)
+	- note: need to efficientyl find incoming and outgoing edge of a node
+- triple store: (subject, relation, object)
+
+summary:
+- relational model: many to many
+- doc: data comes in self-contained docs and relationships between one doc and another are rare
+- graph: anything is potentially related to everything
+- 

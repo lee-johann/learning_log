@@ -7,4 +7,4 @@ Chelsea's Deep RL
 - HW1
 
 DDIA
-- Ch1
+- Ch3
