@@ -41,3 +41,5 @@ Rewards from human preferences (good behavior / bad behavior), want to grade tra
 	- can also use AI feedback, especially on specific axis of preferences ex. which of these responses is less harmful
 		- key insight: critique is easier than generation
 
+what other ways can we provide supervision?
+Can RL Agents propose their own goals (unsupervised RL, ex. formulate as two player game, one sets goal the otehr reaches goal)? 

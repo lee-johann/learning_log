@@ -53,6 +53,7 @@ Helpful talks and videos:
 	- (todo) explaining diffusion https://www.youtube.com/watch?v=i2qSxMVeVLI
 - Kilian
 	- (todo) what is the essence of a problem? https://www.youtube.com/watch?v=kY2NHSKBi10
+	- (todo) text diffusion https://www.youtube.com/watch?v=klW65MWJ1PY&pp=ygURa2lsaWFuIHdlaW5iZXJnZXI%3D
 
 Cool blogs:
 - Lilian

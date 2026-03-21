@@ -3,8 +3,12 @@ Wendy's Interactive Device Design [link](https://github.com/IRL-CT/Developing-an
 - Textbook ch3
 
 Chelsea's Deep RL
-- Lecture 8
+- Lecture 11
 - HW1
 
 DDIA
 - Ch3
+
+Pali Canon
+- intro
+ 
