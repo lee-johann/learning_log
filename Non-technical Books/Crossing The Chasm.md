@@ -1,0 +1,10 @@
+- p. 21 innovators, early adopters, early majority, late majority, laggards
+- p.25 Chasm between early adopters and early majority
+	- customer list and order size can look similar, but basis for sale is different
+	- early adopter is buying a change agent (to get a jump on the competition by being first to implement this, they expect a radical discontinuity between the old ways and the new, ok with bugs as a tradeoff)
+	- early majority wants a producitivity
+	- improvement for existing operations (small discontinuity with the old ways, won't put up with bugs)
+- p.35 market def: set of customers, for a given set of products, who have common set of needs, and reference each other when making buying decisions
+	- marketing's purpose is to sculpt to suite market
+	- reference is important for leverage: b/c no company can afford to pay for every marketing contact made, every program must rely on some chain-reaction effect i.e. word of mouth
+	- 

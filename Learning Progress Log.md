@@ -9,6 +9,8 @@ Chelsea's Deep RL
 DDIA
 - Ch3
 
+Git book
+- Ch 1
+
 Pali Canon
 - intro
- 
