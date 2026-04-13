@@ -7,7 +7,7 @@ DDIA
 - Ch3
 
 Git book
-- Ch 1
+- Ch 2.4
 
 
 Queue:
