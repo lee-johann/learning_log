@@ -1,0 +1,4 @@
+- performance
+- reliability
+- scalability
+- maintainability
