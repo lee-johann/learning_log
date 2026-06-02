@@ -4,7 +4,7 @@ Chelsea's Deep RL
 - HW1 TODO
 
 DDIA
-- Ch5
+- Ch6
 
 Git book
 - Ch 2.4
